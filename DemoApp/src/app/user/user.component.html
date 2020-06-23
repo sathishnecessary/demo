@@ -1,0 +1,20 @@
+<!-- Default form contact -->
+<form class="text-center border border-light p-5" [formGroup]="userForm" (ngSubmit)="onSubmit()" novalidate>
+
+    <p class="h4 mb-4">user Form</p>
+  
+    
+    <input type="text" formControlName="firstName" class="form-control mb-4" placeholder="First Name">
+  
+    
+    <input type="text" formControlName="lastName" class="form-control mb-4" placeholder="Last Name">
+  
+    <!-- Email -->
+    <input type="email" formControlName="email" class="form-control mb-4" placeholder="E-mail">
+  
+  
+    <!-- Send button -->
+    <button mdbBtn color="info"  class="btn btn-primary" block="true" type="button" (click)="onSubmit()">Save</button>
+  
+  </form>
+  <!-- Default form contact -->
