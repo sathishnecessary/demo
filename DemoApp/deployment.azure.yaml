@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: houssemdocker/angular-app:v3#
+        image: sathishdockerac/angular-app:v3#
         ports: 
         - containerPort: 80 
 --- 
