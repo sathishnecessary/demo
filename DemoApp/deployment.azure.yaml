@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: sathishdockerac/angular-app:v3
+        image: sathishdockerac/angular-app:#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
